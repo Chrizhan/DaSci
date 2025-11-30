@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import api from '@/api/backend';
 import { createPageUrl } from '@/utils';
 import { 
     Brain, 
