@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getPrediction } from "@/api/backend";
+import { getPrediction } from "../api/backend";
 import { motion } from 'framer-motion';
 import { Crosshair, Zap, BarChart3 } from 'lucide-react';
 import PredictionForm from '@/components/prediction/PredictionForm';
