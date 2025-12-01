@@ -1,4 +1,4 @@
-const API_URL = "https://<your-backend-name>.onrender.com"; // Replace with your real backend URL
+const API_URL = "https://dasci-9.onrender.com/"; // Replace with your real backend URL
 
 export async function getPrediction(data) {
     const response = await fetch(`${API_URL}/predict`, {
